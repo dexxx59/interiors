@@ -26,7 +26,7 @@
                         <ul class="nav nav-pills nav-pills-primary" role="tablist">
                             <li class="active">                                   
                                 <a href="#" role="tab" data-toggle="tab">
-                                    <i class="material-icons">dashboard</i>
+                                    <i class="material-icons">Dashboard</i>
                                         Carrito de compras
                                 </a>
                             </li>

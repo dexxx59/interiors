@@ -63,7 +63,7 @@ class PrendaController extends Controller
         }*/
         $prenda->save();
         
-    	$msg = 'La Pintura se agrego exitosamente!';
+    	$msg = 'El articulo se agrego exitosamente!';
         return redirect('admin/products')->with(compact('msg'));
     }
 

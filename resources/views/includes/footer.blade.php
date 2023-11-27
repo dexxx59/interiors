@@ -3,23 +3,23 @@
         <nav class="pull-left">
             <ul>
                 <li>
-                    <a href="https://www.luisfax.com/b">
-                        ¿Necesitas ayuda con un proyecto?
+                    <a href="">
+                        Sistemas de informacion III
                     </a>
                 </li>
                 <li>
-                    <a href="https://luisfax.com/b/">
-                       Asesoría personalizada
+                    <a href="">
+                       
                     </a>
                 </li>
                 <li>
-                    <a href="https://luisfax.com/b">
+                    <a href="">
                        Blog
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.youtube.com/watch?v=bGzPI1dx_kw">
-                        2022-DESARROLLO DE SISTEMAS II
+                    <a href="">
+                        2023-DESARROLLO DE SISTEMAS 
                     </a>
                 </li>
             </ul>

@@ -53,7 +53,7 @@
             <p>{{ $product->long_description }} </p>
         </div>
     
-        <!-- Button trigger modal -->    
+        <Button trigger modal >    
         <div class="text-center">
             @if(auth()->check())
                 <button class="btn btn-primary btn-round" data-toggle="modal" data-target="#popModal">

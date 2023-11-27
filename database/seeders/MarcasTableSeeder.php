@@ -16,19 +16,19 @@ class MarcasTableSeeder extends Seeder
     public function run()
     {
         Marca::create([
-            'nombre' =>'Colorin',
+            'nombre' =>'nike',
             'descripcion' => 'Se dedicada a la fabricación de equipamiento deportivo y productos de moda.',
         ]);
         Marca::create([
-            'nombre' =>'Cetol',
+            'nombre' =>'HyM',
             'descripcion' => 'dedicada al diseño, desarrollo, fabricación y comercialización de equipamiento deportivo',
         ]);
         Marca::create([
-            'nombre' =>'Plavicon',
+            'nombre' =>'Zara',
             'descripcion' => 'creación y desarrollo de productos de calidad',
         ]);
         Marca::create([
-            'nombre' =>'Danzke',
+            'nombre' =>'manaco',
             'descripcion' => 'es una casa de modas francesa, fundada en París',
         ]);
     }

@@ -61,6 +61,16 @@ Route::post('/reaction/{id}/delete', [OpinionController::class, 'destroy']); //e
 Route::get("/pedidos/ticket", [PedidosController::class, 'ticket'])->name("pedidos.ticket");
 Route::resource('/pedidos', PedidosController::class); //
 Route::post('/pedidos/{id}/delete', [PedidosController::class, 'destroy']); //eliminar
+// Mostrar el carrito
+Route::get('/carrito/{pedidoId}', [CartDetailController::class, 'mostrarCarrito'])->name('carrito.mostrar');
+
+// Agregar una prenda al carrito
+Route::post('/carrito/agregar/{pedidoId}/{prendaId}/{cantidad}', [CartDetailController::class, 'agregarAlCarrito'])
+    ->name('carrito.agregar');
+
+// Eliminar un detalle del carrito
+Route::delete('/carrito/eliminar/{detalleId}', [CartDetailController::class, 'eliminarDelCarrito'])
+    ->name('carrito.eliminar');
 
 Route::middleware(['auth','admin'])->namespace('Admin')->prefix('admin')->group(function () {
     //prendas

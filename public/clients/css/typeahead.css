@@ -15,9 +15,9 @@
 
 .tt-menu {
   width: 100%;
-  border: 1px solid lightgray;
+  border: 1px solid rgb(238, 109, 109);
   border-radius: 4px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 }
 
 div.tt-dataset .tt-suggestion:last-child {
@@ -27,7 +27,7 @@ div.tt-dataset .tt-suggestion:last-child {
 .tt-suggestion {
   padding: 3px;
   margin: 2px;
-  border-bottom: 1px solid lightgray;
+  border-bottom: 1px solid rgb(90, 68, 68);
 }
 
 .tt-suggestion:hover {
@@ -35,7 +35,7 @@ div.tt-dataset .tt-suggestion:last-child {
 }
 
 .tt-dataset {
-  border-bottom: 4px solid #f6f7f8;
+  border-bottom: 4px solid #9dc7f1;
 }
 
 /** Custom modifications and styles */
@@ -49,7 +49,7 @@ div.tt-dataset .tt-suggestion:last-child {
 }
 
 .suggestion-header {
-  color: #b6b6b6;
+  color: #6f4848;
   font-size: 15px;
   font-weight: 300;
   padding: 2px 5px;
@@ -57,7 +57,7 @@ div.tt-dataset .tt-suggestion:last-child {
 
 .meta-info {
   font-size: 13px;
-  color: #b6b6b7;
+  color: #c3c3f7;
 }
 
 .meta-img {

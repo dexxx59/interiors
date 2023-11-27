@@ -1,8 +1,8 @@
 @extends('layouts.app')
-@section('title', 'Listado de pinturas')
+@section('title', 'Listado de Articulos')
 @section('body-class', 'product-page')
 
-<!--link rel="stylesheet" href="{{asset('clients/css/search.scss')}}"-->
+<link rel="stylesheet" href="{{asset('clients/css/search.scss')}}">
 
 @section('content')
 <div class="header header-filter">
@@ -22,7 +22,7 @@
                     </form>
                 </div>
                 <div class="col-sm-7 text-center">
-                   <h2 class="title">Listado de Pinturas</h2>
+                   <h2 class="title">Listado de Articulos</h2>
                 </div>
                 <div class="col-sm-2">
                     <a href ="{{ url('/admin/products/create') }}" class="btn btn-primary btn-just-icon" title="Nuevo producto">
@@ -40,7 +40,7 @@
             
             <div class="row">
                 <div class="col-sm-3">
-                    <a href="{{ url('/admin/descuentos') }}"> <i class="fa fa-percent"></i>Pinturas en descuento</a>
+                    <a href="{{ url('/admin/descuentos') }}"> <i class="fa fa-percent"></i>Articulos en descuento</a>
                 </div>
             </div>
 
@@ -70,7 +70,7 @@
                             <td>{{ $product->marcas->nombre  }}</td>
                             <td>{{ $product->colors->color  }}</td>
                             <td>{{ $product->stock  }}</td>
-                            <td class="text-right">&euro; {{ $product->precioUnit }}</td>
+                            <td class="text-right">bs {{ $product->precioUnit }}</td>
                             <td class="text-right">{{ $product->descuento }}%</td>
                             <td class="td-actions text-right">
                               <form method="post" action="{{ url('/admin/products/'.$product->id.'/delete') }}">

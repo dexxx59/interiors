@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Pinturas')
+@section('title', 'Mundo Fashion')
 
 @section('body-class', 'landing-page')
 
@@ -29,7 +29,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <h1 class="title">Bienvenidos a "PINTUBOL"</h1>
+                <h1 class="title">Bienvenidos a "Mundo fashion"</h1>
                 <h4>Un Mundo de Colores</h4>
                 <br />
                 
@@ -44,8 +44,8 @@
         <div class="section text-center section-landing">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
-                    <h2 class="title">¿Por qué comprar en Pintubol?</h2>
-                    <h5 class="description">Nuestra variedad de productos te permiten una elección perfecta, además de que manejamos los precios más accesibles del mercado. !Checa y Compara¡</h5>
+                    <h2 class="title">¿Por qué comprar en Mundo Fashion?</h2>
+                    <h5 class="description">Nuestra variedad de prendas te permiten una elección perfecta, además de que manejamos los precios más accesibles del mercado. !Checa y Compara¡</h5>
                 </div>
             </div>
         </div>

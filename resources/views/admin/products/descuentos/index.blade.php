@@ -21,7 +21,7 @@
                     </form>
                 </div>
                 <div class="col-sm-8 text-center">
-                   <h2 class="title">Prendas en Descuento</h2>
+                   <h2 class="title">Articulos en Descuento</h2>
                 </div>
             </div>
 
